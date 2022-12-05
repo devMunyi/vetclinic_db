@@ -1,6 +1,6 @@
 # Vet clinic database
 
-> This project entails creating relational database named animals including schemas, dummy data and practice SQL queries.
+> This project entails creating relational database including schemas, dummy data and practice SQL queries.
 
 
 ## Getting Started

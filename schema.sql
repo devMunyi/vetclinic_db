@@ -22,7 +22,6 @@ CREATE TABLE IF NOT EXISTS owners(
 	PRIMARY KEY (id)
 );
 
-
 -- to create a table named species
 CREATE TABLE IF NOT EXISTS species(
 	id INT GENERATED ALWAYS AS IDENTITY, 
@@ -61,4 +60,3 @@ ALTER TABLE animals
 ADD CONSTRAINT fk_owner_id
 FOREIGN KEY (owner_id)
 REFERENCES owners(id);
-

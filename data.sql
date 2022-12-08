@@ -51,3 +51,39 @@ UPDATE animals SET owner_id = 4 WHERE name = 'Charmander' OR name = 'Squirtle' O
 
 --5) Dean Winchester owns Angemon and Boarmon
 UPDATE animals SET owner_id = 5 WHERE name = 'Angemon' OR name = 'Boarmon';
+
+
+-- Dummy data to insert into vets table
+INSERT INTO vets(name, age, date_of_graduation)
+VALUES
+('William Tatcher', 45, '2000-04-23'),
+('Maisy Smith', 26, '2019-01-17'),
+('Stephanie Mendez', 64, '1981-05-04'),
+('Jack Harkness', 38, '2008-06-08');
+
+-- Dummy data to insert into specializations table 
+INSERT INTO specializations(vet_id, species_id)
+VALUES
+(1, 1),
+(3, 1),
+(3, 2),
+(4, 2);
+
+-- Dummy data to insert into visits table 
+INSERT INTO visits(animal_id, vet_id, date_of_visit)
+VALUES
+(1, 4, '2021-02-24'),
+(2, 2, '2019-12-21'),
+(2, 1, '2020-08-10'),
+(2, 2, '2021-04-07'),
+(3, 3, '2019-09-29'),
+(4, 4, '2020-10-03'),
+(4, 4, '2020-11-04'),
+(5, 2, '2019-01-24'),
+(5, 2, '2019-05-15'),
+(5, 2, '2020-02-27'),
+(5, 2, '2020-08-03'),
+(6, 3, '2020-05-24'),
+(6, 1, '2021-01-11');
+
+

@@ -63,7 +63,7 @@ FOREIGN KEY (owner_id)
 REFERENCES owners(id);
 
 
-/* ======= Vet clinic database: add "join table" for visits ========  */
+/* ======= Vet clinic database: add vets table, visits and specialization join tables ========  */
 
 -- to create a table named vets
 CREATE TABLE IF NOT EXISTS vets(

@@ -189,12 +189,3 @@ WHERE ve.name = 'Maisy Smith'
 GROUP BY s.name
 ORDER BY visits DESC LIMIT 1;
 
-
--- create an index on animal_id column in visits table
-CREATE INDEX animals_id_index ON visits(animal_id); 
-
--- create an index on vet_id column in visits table
-CREATE INDEX vets_id_index ON visits(vet_id);
-
--- create an index on email column in owners table
-CREATE INDEX owners_email_index owners(email);

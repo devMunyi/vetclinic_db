@@ -186,6 +186,6 @@ JOIN vets ve ON ve.id = vi.vet_id
 JOIN animals a ON a.id = vi.animal_id
 JOIN species s ON s.id = a.species_id
 WHERE ve.name = 'Maisy Smith'
-GROUP BY s.name
+GROUP BY species_name
 ORDER BY visits DESC LIMIT 1;
 

@@ -1,39 +1,88 @@
-# Vet clinic database
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Vet clinic database <a name="about-project"></a>
 
 > This project entails creating a relational database including schemas, dummy data and practice SQL queries.
 
+## 🛠 Built With <a name="built-with"></a>
 
-## Getting Started
+### Tech Stack <a name="tech-stack"></a>
 
-This repository includes files with plain SQL that can be used to recreate a database:
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 
-## Authors
+### Prerequisites
+
+In order to run this project you need:
+
+- PostgreSQL Server Installed
+
+### Setup
+
+Clone this repository to your desired folder:
+Run `git clone https://github.com/devMunyi/vetclinic_db` to have a copy on your computer
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
 👤 **Samuel Munyi**
 
 - GitHub: [@githubhandle](https://github.com/devMunyi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-munyi-01315b174/)
 
-## 🤝 Contributing
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
 
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
 
-## 📝 License
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.

@@ -58,4 +58,4 @@ CREATE INDEX animals_id_index ON visits(animal_id);
 CREATE INDEX vets_id_index ON visits(vet_id);
 
 -- create an index on email column in owners table
-CREATE INDEX owners_email_index owners(email);
+CREATE INDEX owners_email_index ON owners(email);

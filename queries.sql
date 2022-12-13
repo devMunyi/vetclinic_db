@@ -188,3 +188,4 @@ JOIN species s ON s.id = a.species_id
 WHERE ve.name = 'Maisy Smith'
 GROUP BY species_name
 ORDER BY visits DESC LIMIT 1;
+

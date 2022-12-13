@@ -2,6 +2,9 @@
 
 > This project entails creating a relational database including schemas, dummy data and practice SQL queries.
 
+# Schema Diagram
+![vet_clinic_schema_diagram](https://user-images.githubusercontent.com/46225052/207281743-59f785e9-5531-473c-9435-dec5a5630289.png)
+
 
 ## Getting Started
 
